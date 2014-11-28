@@ -70,8 +70,21 @@ body {
 .logo {
     display: block;
     width: 7em;
+    float: left;
+    clear: none;
 }
 
+.signin {
+    padding: 1em;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.signin a {
+    text-decoration: none;
+    color: #F9A41E;
+}
+    
 
 /*.nav ul{
     list-style-type: none;
