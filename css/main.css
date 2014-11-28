@@ -125,16 +125,13 @@ body {
     padding: 0;
 }
 
-.bilboard {
+.billboard {
     margin: 0;
     overflow: hidden;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100%;
     background-image: url(.../images/billboardmobile.jpg);
-    z-index: 2;
-    float: left;
-    position: relative
 }
 
 .billcap {
@@ -165,6 +162,37 @@ cap {
     padding: 0 1em;
     color: #48459C;
 }
+
+.social {
+    float: left;
+    width: 6em;
+    padding: 1em;
+}
+
+.top{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.top a {
+    position: absolute;
+    color: #EFEC73;
+    background-color: #fff;
+    font-size: .75em;
+    padding: .35em;
+}
+
+.footer {
+    background-color: #000;
+}
+
+.copyright {
+    color: #EFEC73;
+    text-align: right;
+    padding: 3em 2em;
+}
+    
 
 
 @media only screen and (min-width:20em) {
