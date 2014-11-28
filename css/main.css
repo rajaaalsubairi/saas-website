@@ -138,24 +138,32 @@ body {
 }
 
 .billcap {
-    margin: -5em 0;
+    margin-top: -10em;
     background-color: #fff;
     color: #53ADE1;
     overflow: hidden;
     padding: .5em;
     position: absolute;
+    border: solid 3px #53ADE1;
+    border-radius: 10px;
+    width: 60%;
+    
 }
 
-.cap {
+cap {
     margin: -5em 0;
 }
 
-.feat1 {
-    margin-right: 20%;
-    margin-left: 20%;
-    width: 60%;
+.feat {
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
+.sub {
+ text-align: right;
+    padding: 0 1em;
+}
 
 @media only screen and (min-width:20em) {
     
@@ -166,5 +174,11 @@ body {
     .nav li {
         display: inline-block;
     }
+    
+    .feat {
+    width: 26.6666%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
     
 }
