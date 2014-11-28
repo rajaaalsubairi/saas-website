@@ -1,0 +1,163 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ 
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+@media only screen and (min-width:60em) {
+    html {
+        font-size: 110%
+    }
+}
+
+@media only screen and (min-width:90em){
+    html {
+        font-size: 120%
+    }
+}
+
+@media only screen and (min-width:120em) {
+    html {
+        font-size: 130%
+    }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.skip-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skip-links a {
+    position: absolute;
+    top: -3em;
+    background-color: #fff;
+    color: #48459C;
+    text-decoration: none;
+    padding: 0.35em 0.5em;
+    font-size: 1.25em;
+}
+
+.skip-links a:focus {
+    top: 0;
+}
+
+.header {
+    background-color: #000;
+    overflow: hidden;
+    display: block;
+}
+
+.logo {
+    display: block;
+    width: 7em;
+    float: left;
+    clear: none;
+}
+
+
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li{
+    display: block;
+    text-align: right;
+}
+
+.nav a,
+.nav a:linked,
+.nav a:visted{
+    display:inline-block;
+    color: #000;
+    text-decoration: none;
+}
+    
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active,
+.nav .nav-current:link,
+.nav .nav-current:visited{
+    background-color: #EFEC73;
+    color: #000;
+}
+
+.nav {
+    display: block;
+    padding: 0;
+    text-decoration: none;
+    position: absolute;
+    float: right;
+    font-size: 1em;
+    clear: none;
+    margin: 4em 2%;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #EFEC73;
+    overflow: hidden;
+    font-size: 1em;
+    text-align: right;
+    padding: 0;
+}
+
+.bilboard {
+    margin: 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    background-image: url(.../images/billboardmobile.jpg);
+    z-index: 2;
+    float: left;
+    position: relative
+}
+
+.billcap {
+    margin: -5em 0;
+    background-color: pink;
+    color: #53ADE1;
+    overflow: hidden;
+    padding: .5em;
+    position: absolute;
+}
+
+cap {
+    margin: -5em 0;
+}
+
+@media only screen and (min-width:20em) {
+    
+ 
+    
+@media only screen and (min-width:40em){
+    
+    .nav li {
+        display: inline-block;
+    }
+    
+}
