@@ -65,7 +65,6 @@ body {
 .header {
     background-color: #000;
     overflow: hidden;
-    display: block;
 }
 
 .logo {
@@ -74,54 +73,55 @@ body {
 }
 
 
-.nav ul{
+/*.nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     float: left;
-    position: absolute;
-}
+    background-color: purple;
+    overflow: hidden;
+}*/
 
 .nav li{
-    display: inline-block;
-    text-align: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 1em;
+    background-color: #51B967;
+    overflow: hidden;
+    position: relative;
 }
 
 .nav a,
 .nav a:linked,
 .nav a:visted{
-    display:inline-block;
-    color: #000;
+    display: block;
+    color: #fff;
     text-decoration: none;
 }
     
-
-.nav a:hover,
-.nav a:focus,
-.nav a:active,
+.nav li:hover,
+.nav li:focus,
+.nav li:active,
 .nav .nav-current:link,
 .nav .nav-current:visited{
-    background-color: #EFEC73;
-    color: #000;
+    background-color: #F9A41E;
+    color: #53ADE1;
 }
 
 .nav {
     display: block;
     padding: 0;
     text-decoration: none;
-    position: absolute;
-    float: right;
     font-size: 1em;
     clear: none;
-    margin: 4em;
+    margin: 0;
 }
 
 .nav a {
     text-decoration: none;
-    color: #EFEC73;
+    color: #fff;
     overflow: hidden;
     font-size: 1em;
-    text-align: right;
     padding: 0;
 }
 
@@ -222,19 +222,23 @@ body {
 @media only screen and (min-width:60em) {
 
     .billboard {
-    margin: 0;
-    overflow: hidden;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 100%;
-    background-image: url(../images/billboard.jpg);
-    height: 30em;
+        margin: 0;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100%;
+        background-image: url(../images/billboard.jpg);
+        height: 30em;
     }
 
     .billcap {
-    padding: 1em;
-    margin: 3em 1em;
-    width: 30%;
-    
+        padding: 1em;
+        margin: 3em 1em;
+        width: 30%;
     }
+    
+    .nav li{
+        display: inline-block;
+    }
+    
 }
