@@ -131,11 +131,12 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100%;
-    background-image: url(.../images/billboardmobile.jpg);
+    background-image: url(../images/billboardmobile.jpg);
+    height: 15em;
 }
 
 .billcap {
-    margin-top: -10em;
+    margin: 0;
     background-color: #fff;
     color: #53ADE1;
     overflow: hidden;
@@ -203,5 +204,25 @@ cap {
     
     .nav li {
         display: inline-block;
+    }
+}
+    
+@media only screen and (min-width:60em) {
+
+    .billboard {
+    margin: 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    background-image: url(../images/billboard.jpg);
+    height: 30em;
+    }
+
+    .billcap {
+    padding: 1em;
+    margin: 3em 1em;
+    width: 30%;
+    
     }
 }
