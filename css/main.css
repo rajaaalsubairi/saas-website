@@ -71,8 +71,6 @@ body {
 .logo {
     display: block;
     width: 7em;
-    float: left;
-    clear: none;
 }
 
 
@@ -80,10 +78,12 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    float: left;
+    position: absolute;
 }
 
 .nav li{
-    display: block;
+    display: inline-block;
     text-align: right;
 }
 
@@ -113,7 +113,7 @@ body {
     float: right;
     font-size: 1em;
     clear: none;
-    margin: 4em 2%;
+    margin: 4em;
 }
 
 .nav a {
@@ -132,24 +132,23 @@ body {
     background-position: center center;
     background-size: 100%;
     background-image: url(../images/billboardmobile.jpg);
-    height: 15em;
+    height: 17em;
 }
 
 .billcap {
-    margin: 0;
+    margin: .5em;
     background-color: #fff;
     color: #53ADE1;
     overflow: hidden;
-    padding: .5em;
+    padding: .75em;
     position: absolute;
     border: solid 3px #53ADE1;
-    border-radius: 10px;
     width: 60%;
     
 }
 
-cap {
-    margin: -5em 0;
+.title {
+    text-align: center;
 }
 
 .feat {
@@ -194,11 +193,24 @@ cap {
     padding: 3em 2em;
 }
     
+.join {
+    text-decoration: none;
+    background-color: #F9A41E;
+    color: #fff;
+    padding: .5em;
+    width: 40%;
+    margin-left: 40%;
+    margin-right: 30%;
+    border-radius: 5px;
+}
 
-
-@media only screen and (min-width:20em) {
+.join:hover,
+.join:focus,
+.join:active{
+    background-color: #53ADE1;
+    color: #fff;
+}
     
- 
     
 @media only screen and (min-width:40em){
     
