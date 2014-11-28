@@ -139,16 +139,23 @@ body {
 
 .billcap {
     margin: -5em 0;
-    background-color: pink;
+    background-color: #fff;
     color: #53ADE1;
     overflow: hidden;
     padding: .5em;
     position: absolute;
 }
 
-cap {
+.cap {
     margin: -5em 0;
 }
+
+.feat1 {
+    margin-right: 20%;
+    margin-left: 20%;
+    width: 60%;
+}
+
 
 @media only screen and (min-width:20em) {
     
