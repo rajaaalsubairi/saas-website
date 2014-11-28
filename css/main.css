@@ -145,7 +145,7 @@ body {
     background-position: center center;
     background-size: 100%;
     background-image: url(../images/billboardmobile.jpg);
-    height: 17em;
+    height: 13em;
 }
 
 .billcap {
@@ -224,6 +224,12 @@ body {
     color: #fff;
 }
     
+@media only screen and (min-width:25em) {
+ 
+    .billboard {
+        height: 20em;
+    }
+}
     
 @media only screen and (min-width:40em){
     
