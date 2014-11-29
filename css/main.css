@@ -75,14 +75,16 @@ body {
 }
 
 .signin {
-    padding: 1em;
     background-color: #fff;
     overflow: hidden;
+    float: right;
+    padding: 3em 0 ;
 }
 
 .signin a {
     text-decoration: none;
     color: #F9A41E;
+    padding: 1em;
 }
     
 
@@ -260,8 +262,9 @@ body {
     
 @media only screen and (min-width:40em){
     
-    .nav li {
+    .nav {
         display: inline-block;
+        float: right;
     }
     
      .billboard {
@@ -284,7 +287,7 @@ body {
     
 @media only screen and (min-width:60em) {
     
-    .nav li{
+    .nav {
         display: inline-block;
     }
     
