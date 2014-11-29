@@ -145,7 +145,7 @@ body {
     background-position: center center;
     background-size: 100%;
     background-image: url(../images/billboardmobile.jpg);
-    height: 13em;
+    height: 10em;
 }
 
 .billcap {
@@ -157,11 +157,16 @@ body {
     position: absolute;
     border: solid 3px #53ADE1;
     width: 60%;
-    
+    padding: 1em;
+}
+
+.cap {
+    display: none;
 }
 
 .title {
     text-align: center;
+    font-size: 1em;
 }
 
 .feat {
@@ -215,6 +220,8 @@ body {
     margin-left: 40%;
     margin-right: 30%;
     border-radius: 5px;
+    margin-bottom: .5em;
+    overflow: hidden;
 }
 
 .join:hover,
@@ -227,7 +234,27 @@ body {
 @media only screen and (min-width:25em) {
  
     .billboard {
-        height: 20em;
+        height: 15em;
+    }
+    
+    .billcap {
+    margin: .5em;
+    background-color: #fff;
+    color: #53ADE1;
+    overflow: hidden;
+    padding: .75em;
+    position: absolute;
+    border: solid 3px #53ADE1;
+    width: 60%;
+    
+    }
+    
+    .cap {
+        display: block;
+    }
+    
+    .title {
+        font-size: 1.5em;
     }
 }
     
@@ -236,11 +263,8 @@ body {
     .nav li {
         display: inline-block;
     }
-}
     
-@media only screen and (min-width:60em) {
-
-    .billboard {
+     .billboard {
         margin: 0;
         overflow: hidden;
         background-repeat: no-repeat;
@@ -249,12 +273,16 @@ body {
         background-image: url(../images/billboard.jpg);
         height: 30em;
     }
-
+    
     .billcap {
         padding: 1em;
         margin: 3em 1em;
         width: 30%;
     }
+
+}
+    
+@media only screen and (min-width:60em) {
     
     .nav li{
         display: inline-block;
