@@ -75,27 +75,28 @@ body {
 }
 
 .signin {
-    background-color: #fff;
+    background-color: #000;
     overflow: hidden;
     float: right;
-    padding: 3em 0 ;
+    clear: none;
+    padding: 4em 0 0 0;
 }
 
 .signin a {
     text-decoration: none;
-    color: #F9A41E;
+    color: #EFEC73;
     padding: 1em;
 }
     
 
-/*.nav ul{
+.nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     float: left;
-    background-color: purple;
+    width: 100%;
     overflow: hidden;
-}*/
+}    
 
 .nav li{
     list-style-type: none;
@@ -128,7 +129,6 @@ body {
     padding: 0;
     text-decoration: none;
     font-size: 1em;
-    clear: none;
     margin: 0;
 }
 
@@ -151,15 +151,15 @@ body {
 }
 
 .billcap {
-    margin: .5em;
-    background-color: #fff;
-    color: #53ADE1;
+    color: #fff;
     overflow: hidden;
-    padding: .75em;
     position: absolute;
-    border: solid 3px #53ADE1;
-    width: 60%;
-    padding: 1em;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 1.5em;
+    border: solid 3px #fff;
+    font-family: "Lato", sans-serif;
 }
 
 .cap {
@@ -215,15 +215,19 @@ body {
     
 .join {
     text-decoration: none;
-    background-color: #F9A41E;
-    color: #fff;
+    background-color: #fff;
+    color: #48459C;
     padding: .5em;
     width: 40%;
     margin-left: 40%;
     margin-right: 30%;
     border-radius: 5px;
-    margin-bottom: .5em;
+    margin-bottom: 1em;
     overflow: hidden;
+}
+
+.join a {
+    font-size: 1em;
 }
 
 .join:hover,
@@ -233,22 +237,9 @@ body {
     color: #fff;
 }
     
-@media only screen and (min-width:25em) {
- 
+@media only screen and (min-width:21.75em) {
     .billboard {
-        height: 15em;
-    }
-    
-    .billcap {
-    margin: .5em;
-    background-color: #fff;
-    color: #53ADE1;
-    overflow: hidden;
-    padding: .75em;
-    position: absolute;
-    border: solid 3px #53ADE1;
-    width: 60%;
-    
+        height: 20em;
     }
     
     .cap {
@@ -256,18 +247,30 @@ body {
     }
     
     .title {
-        font-size: 1.5em;
+        font-size: 2.5em;
     }
 }
     
 @media only screen and (min-width:40em){
     
-    .nav {
+    .nav li{
         display: inline-block;
         float: right;
+        background-color: #000;
+        padding: 4em 0 0 0;
     }
     
-     .billboard {
+    .nav a {
+        color: #EFEC73;
+        padding: 4em 0 0 0;
+    }
+            
+    .nav ul {
+        background-color: #000;
+    }
+    
+    
+    .billboard {
         margin: 0;
         overflow: hidden;
         background-repeat: no-repeat;
@@ -275,13 +278,21 @@ body {
         background-size: 100%;
         background-image: url(../images/billboard.jpg);
         height: 30em;
-    }
+    }    
     
     .billcap {
-        padding: 1em;
-        margin: 3em 1em;
-        width: 30%;
+    margin: .5em;
+    color: #fff;
+    overflow: hidden;
+    padding: .75em;
+    position: absolute;
+    border: solid 3px #fff;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family:"Lato", sans-serif;
     }
+
 
 }
     
