@@ -2,19 +2,19 @@
 <!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 253.8 198.1" enable-background="new 0 0 253.8 198.1" xml:space="preserve">
-<polyline fill="none" stroke="#EEEC75" stroke-width="3" stroke-miterlimit="10" points="6.8,38.5 115.1,136.8 166.8,146.3 
-	120.7,115.9 93.8,79.4 48.6,3.7 "/>
-<polyline fill="none" stroke="#EEEC75" stroke-width="3" stroke-miterlimit="10" points="246,39.4 193.8,18.5 93.8,79.4 "/>
-<circle fill="#EEEC75" cx="7.8" cy="39.1" r="7.8"/>
-<circle fill="#EEEC75" cx="75.7" cy="101.1" r="3.1"/>
-<circle fill="#EEEC75" cx="116.1" cy="137.1" r="4.6"/>
-<circle fill="#EEEC75" cx="167.8" cy="146.9" r="7.8"/>
-<circle fill="#EEEC75" cx="246" cy="39.4" r="7.8"/>
-<circle fill="#EEEC75" cx="193.8" cy="19.5" r="7.8"/>
-<circle fill="#EEEC75" cx="93.8" cy="79.4" r="7.8"/>
-<circle fill="#EEEC75" cx="48.6" cy="3.7" r="3.7"/>
-<circle fill="#EEEC75" cx="120.9" cy="115.8" r="4.1"/>
-<rect x="2.7" y="159.8" fill="none" width="251.1" height="37.7"/>
-<text transform="matrix(1 0 0 1 2.6953 187.8076)" fill="#EEEC75" font-family="'Avenir-Heavy'" font-size="37">ANDROMEDA</text>
+	 viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
+<polyline fill="none" stroke="#53ADE1" stroke-width="6" stroke-miterlimit="10" points="16.4,250 277.5,487 402.2,509.9 291,436.6 
+	226.2,348.6 117.2,166.1 "/>
+<polyline fill="none" stroke="#53ADE1" stroke-width="6" stroke-miterlimit="10" points="593.2,252.2 467.3,201.8 226.2,348.6 "/>
+<circle fill="#53ADE1" cx="18.8" cy="251.4" r="18.8"/>
+<circle fill="#53ADE1" cx="182.5" cy="400.9" r="7.5"/>
+<circle fill="#53ADE1" cx="280" cy="487.8" r="11.1"/>
+<circle fill="#53ADE1" cx="404.6" cy="511.4" r="18.8"/>
+<circle fill="#53ADE1" cx="593.2" cy="252.2" r="18.8"/>
+<circle fill="#53ADE1" cx="467.3" cy="204.2" r="18.8"/>
+<circle fill="#53ADE1" cx="226.2" cy="348.6" r="18.8"/>
+<circle fill="#53ADE1" cx="117.2" cy="166.1" r="8.9"/>
+<circle fill="#53ADE1" cx="291.5" cy="436.4" r="9.9"/>
+<rect x="6.5" y="542.5" fill="none" width="605.5" height="90.9"/>
+<text transform="matrix(1 0 0 1 6.4987 610.0265)" fill="#53ADE1" font-family="'Avenir-Heavy'" font-size="89.2199">ANDROMEDA</text>
 </svg>

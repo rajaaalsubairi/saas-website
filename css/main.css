@@ -68,30 +68,15 @@ body {
 }
 
 .logo {
-    display: block;
-    width: 7em;
+    display: inline-block;
     float: left;
-    clear: none;
+    width: 5em;
+    margin-left:2em;
 }
-
-.signin {
-    background-color: #000;
-    overflow: hidden;
-    float: right;
-    clear: none;
-    padding: 4em 0 0 0;
-}
-
-.signin a {
-    text-decoration: none;
-    color: #EFEC73;
-    padding: 1em;
-}
-    
 
 .nav ul{
     list-style-type: none;
-    margin: 0;
+    margin: 2em;
     padding: 0;
     float: left;
     width: 100%;
@@ -101,10 +86,10 @@ body {
 .nav li{
     list-style-type: none;
     margin: 0;
-    padding: 1em;
-    background-color: #51B967;
+    padding: .5em;
     overflow: hidden;
     position: relative;
+    display: inline-block;
 }
 
 .nav a,
@@ -120,32 +105,34 @@ body {
 .nav li:active,
 .nav .nav-current:link,
 .nav .nav-current:visited{
-    background-color: #F9A41E;
     color: #53ADE1;
 }
 
 .nav {
-    display: block;
+    display: inline-block;
     padding: 0;
     text-decoration: none;
     font-size: 1em;
     margin: 0;
+    float: right;
+    margin-top: 3em;
 }
 
 .nav a {
     text-decoration: none;
-    color: #fff;
+    color: #53ADE1;
+    font-family: "lato",sans-serif;
     overflow: hidden;
     font-size: 1em;
     padding: 0;
 }
 
 .billboard {
-    margin: 0;
+    margin: auto;
     overflow: hidden;
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 100%;
+    background-position: center top;
+    background-size: cover;
     background-image: url(../images/billboardmobile.jpg);
     height: 10em;
 }
@@ -153,13 +140,16 @@ body {
 .billcap {
     color: #fff;
     overflow: hidden;
+    display: inline-block;
     position: absolute;
-    width: 80%;
-    margin-right: 10%;
     margin-left: 10%;
-    font-size: 1.5em;
+    margin-right: 10%;
+    width: 80%;
+    height: 6em;
     border: solid 3px #fff;
     font-family: "Lato", sans-serif;
+    line-height: 1em;
+    text-align: center;
 }
 
 .cap {
@@ -168,7 +158,7 @@ body {
 
 .title {
     text-align: center;
-    font-size: 1em;
+    font-size: 1.25em;
 }
 
 .feat {
@@ -216,18 +206,17 @@ body {
 .join {
     text-decoration: none;
     background-color: #fff;
-    color: #48459C;
+    color: #53ADE1;
     padding: .5em;
-    width: 40%;
-    margin-left: 40%;
-    margin-right: 30%;
+    text-align: center;
     border-radius: 5px;
-    margin-bottom: 1em;
-    overflow: hidden;
+    overflow: hidden;    
 }
 
 .join a {
-    font-size: 1em;
+    font-size: .5em;
+    text-align: center;
+    overflow: hidden;
 }
 
 .join:hover,
@@ -236,40 +225,40 @@ body {
     background-color: #53ADE1;
     color: #fff;
 }
-    
-@media only screen and (min-width:21.75em) {
+
+.exppara {
+    display: block;
+}
+
+@media only screen and (min-width:20em) {
     .billboard {
-        height: 20em;
+        height: 15em;
+    }
+    
+    .billcap {
+    font-size: 1em;
+    height: 12em;
+}
+    
+    .title {
+        font-size: 2.5em;
+    }
+}
+@media only screen and (min-width:26em){
+    
+    .billcap {
+    font-size: 1em;
+    height: 12em;
     }
     
     .cap {
         display: block;
     }
     
-    .title {
-        font-size: 2.5em;
-    }
 }
     
 @media only screen and (min-width:40em){
-    
-    .nav li{
-        display: inline-block;
-        float: right;
-        background-color: #000;
-        padding: 4em 0 0 0;
-    }
-    
-    .nav a {
-        color: #EFEC73;
-        padding: 4em 0 0 0;
-    }
-            
-    .nav ul {
-        background-color: #000;
-    }
-    
-    
+       
     .billboard {
         margin: 0;
         overflow: hidden;
@@ -281,25 +270,43 @@ body {
     }    
     
     .billcap {
-    margin: .5em;
-    color: #fff;
-    overflow: hidden;
-    padding: .75em;
-    position: absolute;
-    border: solid 3px #fff;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    font-family:"Lato", sans-serif;
+        text-align: center;
+        color: #fff;
+        overflow: hidden;
+        padding: .75em;
+        position: absolute;
+        border: solid 3px #fff;
+        font-family:"Lato", sans-serif;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 26.5em;
     }
-
-
+    
+    .title{
+        font-size: 4em;
+        line-height: 1.25em;
+    }
+    
+    .cap {
+        display: block;
+        font-size: 2em;
+        line-height: 1.5em;
+    }
+    
+    .join {
+        font-size: 1.5em;
+        margin: .5em;
+    }
 }
     
-@media only screen and (min-width:60em) {
+@media only screen and (min-width:50em) {
     
-    .nav {
-        display: inline-block;
+    .cap {
+        margin-bottom: 4em;
+    }
+    
+    .join {
+    font-size: 3em;
     }
     
 }
