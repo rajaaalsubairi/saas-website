@@ -148,7 +148,6 @@ body {
     height: 6em;
     border: solid 3px #fff;
     font-family: "Lato", sans-serif;
-    line-height: 1em;
     text-align: center;
 }
 
@@ -157,8 +156,10 @@ body {
 }
 
 .title {
+    margin-top: .5em;
     text-align: center;
     font-size: 1.25em;
+    line-height: 1em;
 }
 
 .feat {
@@ -226,6 +227,11 @@ body {
     color: #fff;
 }
 
+.tour1 {
+    background-color: purple;
+    overflow: hidden;  
+}
+
 .exppara {
     display: block;
 }
@@ -242,6 +248,7 @@ body {
     
     .title {
         font-size: 2.5em;
+        margin-top: .5em;
     }
 }
 @media only screen and (min-width:26em){
@@ -254,7 +261,6 @@ body {
     .cap {
         display: block;
     }
-    
 }
     
 @media only screen and (min-width:40em){
@@ -285,6 +291,7 @@ body {
     .title{
         font-size: 4em;
         line-height: 1.25em;
+        margin-top: 0;
     }
     
     .cap {
