@@ -170,10 +170,10 @@ body {
     margin-right: 25%;
 }
 
-.sub {
-    color: #48459C;
+.subs {
+    font-family: "lato", sans-serif;
+    color: #000;
 }
-
 .social {
     float: left;
     width: 6em;
@@ -232,15 +232,6 @@ body {
 .join:active{
     background-color: #53ADE1;
     color: #fff;
-}
-
-.tour1 {
-    background-color: purple;
-    overflow: hidden;  
-}
-
-.exppara {
-    display: block;
 }
 
 .social {
@@ -323,6 +314,74 @@ button:hover {
     font-weight: bold;
 }
 
+.question {
+    font-family: "lato", sans-serif;
+    font-weight: bold;
+    font-size: 1.15em;
+}
+
+.faq {
+    color: #53ADE1;
+    font-family: "lato",sans-serif;
+}
+
+.h2 {
+    color: #fff;
+    font-family: "lato", sans-serif;
+    margin: 0 0 0 .5em;
+}
+
+.offers {
+    list-style-type: square;
+}
+
+.free {
+    color: #53ADE1;
+    font-family: "lato",sans-serif;
+    margin: 0 0 0 .5em;
+}
+
+.tour2 {
+    background-color: #EAEAEA;
+    height: 22em;
+    padding: .5em;
+}
+
+.tour1 {
+    background-color: #53ADE1;
+    height: 22em;
+    padding: .5em;
+}
+
+.price {
+    font-size: 2em;
+    position: relative;
+    margin-top: 3.75em;
+    text-align: center;
+    border: solid 1px #fff;
+    border-radius: 100px;
+    background-color: #fff;
+}
+
+.price1 {
+    font-size: 2em;
+    position: relative;
+    margin-top: 2em;
+    text-align: center;
+    border: solid 1px #fff;
+    border-radius: 100px;
+    background-color: #fff;
+}
+
+.price2 {
+    font-size: 2em;
+    position: relative;
+    margin-top: .85em;
+    text-align: center;
+    border: solid 1px #fff;
+    border-radius: 100px;
+    background-color: #fff;
+}
 @media only screen and (min-width:20em) {
     .billboard {
         height: 15em;
