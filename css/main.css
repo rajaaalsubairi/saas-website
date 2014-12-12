@@ -291,7 +291,7 @@ input+label [type="radio"] {
     display: inline-block;
 }
 
-button {
+button{
     background-color: #53ADE1;
     border: solid 1px #53ADE1;
     border-radius: 4px;
@@ -299,7 +299,9 @@ button {
     width: 40%;
     color: #fff;
     font-size: 1em;
+    padding: 1em;
 }
+
 
 button:hover {
     border: solid 2px #53ADE1;
@@ -381,6 +383,11 @@ button:hover {
     border: solid 1px #fff;
     border-radius: 100px;
     background-color: #fff;
+}
+
+.thanks {
+    font-family: "lato", sans-serif;
+    color: #53ADE1;
 }
 @media only screen and (min-width:20em) {
     .billboard {
