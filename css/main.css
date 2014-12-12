@@ -71,7 +71,7 @@ body {
     display: inline-block;
     float: left;
     width: 5em;
-    margin-left:2em;
+    margin-left:3%;
 }
 
 .nav ul{
@@ -106,6 +106,8 @@ body {
 .nav .nav-current:link,
 .nav .nav-current:visited{
     color: #53ADE1;
+    background-color: #fff;
+    padding: .5em;
 }
 
 .nav {
@@ -188,10 +190,21 @@ body {
     margin: auto;
     text-align: center;
     width: 15em;
+    display: none;
 }
 
-.introcap {
-    color: #000;
+.introtitle {
+    font-family:"lato",sans-serif;
+    margin: 0;
+    color: #53ADE1;
+}
+
+.introtext {
+    color: #fff;
+}
+
+.intro {
+    background-color: #000;
 }
 
 .footer {
@@ -240,11 +253,74 @@ body {
 }
 
 .social1 {
-    margin-left: 4em;
+    margin-left: 3%;
 }
 
 .social2 {
-    margin-left: 4em;
+    margin-left: 3%;
+}
+
+label {
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "lato",sans-serif;
+    
+}
+
+input+label {
+    display: inline-block;
+}
+
+input {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: solid 2px #53ADE1;
+    height: 2em;
+    font-size: 1em;
+    margin-bottom: .5em;
+}
+
+select {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%
+}
+
+.sub {
+    font-family: "lato", sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #000;
+}
+
+input+label [type="radio"] {
+    margin-left:10%;
+    display: inline-block;
+}
+
+button {
+    background-color: #53ADE1;
+    border: solid 1px #53ADE1;
+    border-radius: 4px;
+    margin: 2em 30%;
+    width: 40%;
+    color: #fff;
+    font-size: 1em;
+}
+
+button:hover {
+    border: solid 2px #53ADE1;
+    background-color: #fff;
+    color: #000;
+}
+
+.jointitle {
+    font-size: 4em;
+    text-align: center;
+    font-family: "lato", sans-serif;
+    font-weight: bold;
 }
 
 @media only screen and (min-width:20em) {
@@ -270,9 +346,6 @@ body {
         margin-left: .5em;
     }
     
-    .mainicon {
-        width: 10em;
-    }
 }
 @media only screen and (min-width:26em){
     
@@ -283,6 +356,18 @@ body {
     
     .cap {
         display: block;
+    }
+    
+}
+    
+@media only screen and (min-width:37.938em){
+    
+    .mainicon {
+        display: block;
+    }
+    
+    .introtitle {
+         padding-top: .5em;
     }
 }
     

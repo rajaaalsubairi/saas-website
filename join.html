@@ -26,11 +26,70 @@
             </div>
         <nav class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
           <ul class="nav mega push-0"> 
-              <li><a href="join.html">Join</a></li>
+              <li><a class="nav-current" href="join.html">Join</a></li>
               <li><a href="tour.html">Tour</a></li>                               
           </ul>
        </nav>
     </header>
+    
+      <ul class="skip-links">
+        <li><a href="#main">Skip to main content</a></li>
+        <li><a href="#navigation">Skip to navigation</a></li>
+    </ul>
+    
+    <main role="main" id="main">
+        
+    <div class="grid">
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+            <h1 class="jointitle">Join us</h1>
+        </div>
+    </div>    
+    <form action="thanks.html" method=“post” class="grid form">
+        
+        <div class="unit unit-xs-1 unit-s unit-m-1-2 unit-l-1-2">
+            <div>
+                <label for="lastname">Last Name</label>
+                <input id="lastname">
+            </div>
+    
+            <div>
+                <label for="name">First Name</label>
+                <input id="name">
+            </div>
+        </div>
+        <div class="unit unit-xs-1 unit-s unit-m-1-2 unit-l-1-2">
+            <div>
+                <label for="firstname">Username</label>
+                <input id="firstname">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input id="password" type="password">
+            </div>
+        </div>
+        
+         <div class="unit unit-xs-1 unit-s unit-m-1-2 unit-l-1-2">
+            <div>
+                <label for="email-addr">E-mail Address</label>
+                <input class="field" type="email" id="email-addr">
+            </div>
+            <div> 
+                <label for="gender">Gender</label>
+                <select id="gender">
+                    <option>Female</option>
+                    <option>Male</option>
+                    <option selected>Other</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+            <div>
+            <button type="submit">Join</button>
+            </div>
+        </div>
+    </form>
+    </main>
     
     <footer role="contentinfo" class="grid footer">
         <div class="pad-top unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-2">
@@ -46,5 +105,4 @@
     </footer>
 
 </body>
-</html>
-    
+</html>  
