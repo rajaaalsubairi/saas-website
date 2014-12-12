@@ -169,8 +169,6 @@ body {
 }
 
 .sub {
-    text-align: right;
-    padding: 0 1em;
     color: #48459C;
 }
 
@@ -186,24 +184,20 @@ body {
     list-style-type: none;
 }
 
-.top a {
-    position: absolute;
-    color: #EFEC73;
-    background-color: #fff;
-    font-size: .75em;
-    padding: .35em;
+.mainicon{
+    margin: auto;
+    text-align: center;
+    width: 15em;
+}
+
+.introcap {
+    color: #000;
 }
 
 .footer {
     background-color: #000;
 }
 
-.copyright {
-    color: #EFEC73;
-    text-align: right;
-    padding: 3em 2em;
-}
-    
 .join {
     text-decoration: none;
     background-color: #fff;
@@ -236,19 +230,48 @@ body {
     display: block;
 }
 
+.social {
+    width: 2em;
+    padding: 0;
+    display: inline-block;
+    overflow: hidden;
+    float: left;
+    clear: none;
+}
+
+.social1 {
+    margin-left: 4em;
+}
+
+.social2 {
+    margin-left: 4em;
+}
+
 @media only screen and (min-width:20em) {
     .billboard {
         height: 15em;
     }
     
     .billcap {
-    font-size: 1em;
-    height: 12em;
-}
+        font-size: 1em;
+        height: 12em;
+    }
     
     .title {
         font-size: 2.5em;
         margin-top: .5em;
+    }
+    
+    .social {
+        height: 3em;
+    }
+    
+    .social2 {
+        margin-left: .5em;
+    }
+    
+    .mainicon {
+        width: 10em;
     }
 }
 @media only screen and (min-width:26em){
