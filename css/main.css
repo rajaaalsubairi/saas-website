@@ -276,7 +276,11 @@ input {
 select {
     margin-left: 10%;
     margin-right: 10%;
-    width: 80%
+    width: 80%;
+    height: 3em;
+    border: solid 1px #53ADE1;
+    font-size: .75em;
+    background-color: #fff;
 }
 
 .sub {
@@ -284,11 +288,6 @@ select {
     margin-left: 10%;
     margin-right: 10%;
     color: #000;
-}
-
-input+label [type="radio"] {
-    margin-left:10%;
-    display: inline-block;
 }
 
 button{
@@ -301,7 +300,6 @@ button{
     font-size: 1em;
     padding: 1em;
 }
-
 
 button:hover {
     border: solid 2px #53ADE1;
@@ -345,13 +343,13 @@ button:hover {
 
 .tour2 {
     background-color: #EAEAEA;
-    height: 22em;
+    overflow: hidden;
     padding: .5em;
 }
 
 .tour1 {
     background-color: #53ADE1;
-    height: 22em;
+    overflow: hidden;
     padding: .5em;
 }
 
@@ -381,6 +379,11 @@ button:hover {
     border: solid 1px #fff;
     border-radius: 100px;
     background-color: #fff;
+}
+
+.prices {
+    text-decoration: none;
+    color: #000;
 }
 
 .thanks {
@@ -440,9 +443,8 @@ button:hover {
         margin-left: 40%;
         margin-right: 40%;
     }
-    
 }
-    
+
 @media only screen and (min-width:37.938em){
     
     .mainicon {
@@ -451,6 +453,14 @@ button:hover {
     
     .introtitle {
          padding-top: .5em;
+    }
+    
+     .tour1 {
+        height: 22em;
+    }
+    
+    .tour2 {
+        height: 22em;
     }
 }
     
