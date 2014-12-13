@@ -218,7 +218,8 @@ body {
     padding: .5em;
     text-align: center;
     border-radius: 5px;
-    overflow: hidden;    
+    overflow: hidden;
+    padding: 2em;
 }
 
 .join a {
